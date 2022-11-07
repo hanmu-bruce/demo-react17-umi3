@@ -7,6 +7,7 @@ export default defineConfig({
   routes: [
     { path: '/', component: '@/pages/index' },
     { path: '/jsx', component: '@/pages/jsx/index' },
+    { path: '/message', component: '@/pages/message/index' },
   ],
   fastRefresh: {},
 });
